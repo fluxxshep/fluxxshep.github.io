@@ -2,12 +2,18 @@ body {
 	background-color: lightblue;
 }
 
-h1 {
+.main-header {
+	margin-top: 50px;
+	font-size: 80px;
 	color: deeppink;
 	text-align: center;
 }
 
-p {
+.rickroll-link {
+	margin-top: 20px;
+	font-size: 50px;
+	text-decoration: none;
 	color: blue;
 	text-align: center;
+	display: block;
 }
