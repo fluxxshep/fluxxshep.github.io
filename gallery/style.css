@@ -6,10 +6,10 @@ body {
 
 .top-header {
     font-size: 100px;
-    color: darkslategray;
+    color: lightblue;
     text-align: center;
     padding: 20px;
-    background-color: lightblue;
+    background-color: darkslategray;
 }
 
 .navigation-bar {
@@ -27,14 +27,14 @@ body {
 }
 
 .navigation-bar li a {
-	color: darkslategray;
-	background-color: lightblue;
+	color: lightblue;
+	background-color: darkslategray;
 	text-decoration: none;
 	padding: 25px;
 }
 
 .navigation-bar li  a:hover {
-	background-color: pink;
+	background-color: gray;
 	transition: background-color 0.5s ease;
 }
 
@@ -44,22 +44,22 @@ body {
 
 #arcade-odyssey {
     text-align: center;
-    color: darkslategray;
+    color: lightblue;
 }
 
 #arcade-odyssey h1 {
     font-size: 100px;
     padding: 20px;
-    background-color: lightblue;
+    background-color: darkslategray;
 }
 
 #round1 {
     text-align: center;
-    color: darkslategray;
+    color: lightblue;
 }
 
 #round1 h1 {
     font-size: 100px;
     padding: 20px;
-    background-color: lightblue;
+    background-color: darkslategray;
 }
