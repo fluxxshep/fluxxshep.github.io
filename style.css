@@ -1,19 +1,87 @@
 body {
+	background-image: url("background.png");
+	background-attachment: fixed;
+	font-family: Arial;
+}
+
+.top-header {
+	font-size: 100px;
+	color: darkslategray;
+	text-align: center;
+	padding: 20px;
 	background-color: lightblue;
 }
 
-.main-header {
-	margin-top: 50px;
-	font-size: 80px;
-	color: deeppink;
-	text-align: center;
+.fluxx-picture {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.rickroll-link {
-	margin-top: 20px;
-	font-size: 50px;
-	text-decoration: none;
-	color: blue;
+.navigation-bar {
+	list-style-type: none;
 	text-align: center;
-	display: block;
+	margin-top: 35px;
+	
+}
+
+.navigation-bar li {
+	display: inline-block;
+	font-size: 50px;
+	padding: 30px;
+	text-decoration: none;
+}
+
+.navigation-bar li a {
+	color: darkslategray;
+	background-color: lightblue;
+	text-decoration: none;
+	padding: 25px;
+}
+
+.navigation-bar li  a:hover {
+	background-color: pink;
+	transition: background-color 0.5s ease;
+}
+
+.navigation-bar li a:link {
+	transition: background-color 0.5s ease;
+}
+
+#about {
+	margin-top: 100px;
+	text-align: center;
+	background-color: lightblue;
+	padding: 15px;
+}
+
+#about h1 {
+	font-size: 100px;
+	color: darkslategray;
+}
+
+#about p {
+	font-size: 75px;
+	color: darkslategray;
+}
+
+#socials {
+	margin-top: 100px;
+	text-align: center;
+	background-color: lightblue;
+	padding: 10px;
+}
+
+#socials h1 {
+	font-size: 100px;
+	color: darkslategray;
+}
+
+#socials ul {
+	list-style-type: none;
+}
+
+#socials ul li {
+	font-size: 75px;
+	color: blueviolet;
 }

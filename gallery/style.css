@@ -1,0 +1,65 @@
+body {
+	background-image: url("./../background.png");
+    background-attachment: fixed;
+    font-family: Arial;
+}
+
+.top-header {
+    font-size: 100px;
+    color: darkslategray;
+    text-align: center;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.navigation-bar {
+	list-style-type: none;
+	text-align: center;
+	margin-top: 35px;
+	
+}
+
+.navigation-bar li {
+	display: inline-block;
+	font-size: 50px;
+	padding: 30px;
+	text-decoration: none;
+}
+
+.navigation-bar li a {
+	color: darkslategray;
+	background-color: lightblue;
+	text-decoration: none;
+	padding: 25px;
+}
+
+.navigation-bar li  a:hover {
+	background-color: pink;
+	transition: background-color 0.5s ease;
+}
+
+.navigation-bar li a:link {
+	transition: background-color 0.5s ease;
+}
+
+#arcade-odyssey {
+    text-align: center;
+    color: darkslategray;
+}
+
+#arcade-odyssey h1 {
+    font-size: 100px;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+#round1 {
+    text-align: center;
+    color: darkslategray;
+}
+
+#round1 h1 {
+    font-size: 100px;
+    padding: 20px;
+    background-color: lightblue;
+}
